@@ -10,7 +10,7 @@ Comprehensive notes for Cryptography course, converted from handwritten notes to
 ## Table of Contents
 
 ### 1️ Foundations
-- [Matrix Algebra in Cryptography](01-Foundations/matrix-algebra.md)
+- [Matrix Algebra in Cryptography](/matrix-algebra.md)
 
 ### 2️ Classical Cryptography
 - Coming soon...
