@@ -10,27 +10,27 @@ Comprehensive notes for Cryptography course, converted from handwritten notes to
 ## Table of Contents
 
 ### 1️ Foundations
-- [Matrix Algebra in Cryptography](01-Foundations/matrix-algebra.md)
-- [Modular Arithmetic & GCD](01-Foundations/modular-arithmetic.md)
+- [Matrix Algebra in Cryptography](/matrix-algebra.md)
+- [Modular Arithmetic & GCD](/modular-arithmetic.md)
 
 ### 2️ Public Key Cryptography
-- [RSA Encryption](02-Public-Key/rsa.md)
+- [RSA Encryption](/rsa.md)
 
 ### 3️ Classical Cryptography
-- [Classical Ciphers](03-Classical-Ciphers/classical-ciphers.md)
+- [Classical Ciphers](/classical-ciphers.md)
   - Caesar, Vigenère, Substitution, OTP
   - Rail Fence, Playfair, Hill Cipher
   - Security analysis & frequency attacks
 
 ### 4️ Symmetric Cryptography  
-- [AES & Block Cipher Modes](04-Symmetric-Crypto/aes.md)
+- [AES & Block Cipher Modes](/aes.md)
   - AES structure & operations
   - Galois Fields GF(2⁸)
   - Block cipher modes (ECB, CBC, CTR, GCM)
   - Padding schemes
 
 ### 5️ Hash Functions
-- [Cryptographic Hash Functions](05-Hash-Functions/hash-functions.md)
+- [Cryptographic Hash Functions](/hash-functions.md)
   - MD5, SHA-1, SHA-2, SHA-3
   - Properties & security requirements
   - Birthday paradox & collision attacks
@@ -38,7 +38,7 @@ Comprehensive notes for Cryptography course, converted from handwritten notes to
   - Applications & best practices
 
 ### 6️ Digital Signatures
-- [Digital Signatures & PKI](06-Digital-Signatures/signatures.md)
+- [Digital Signatures & PKI](/signatures.md)
   - RSA signatures
   - DSA & ECDSA
   - Signature padding (PSS)
@@ -47,7 +47,7 @@ Comprehensive notes for Cryptography course, converted from handwritten notes to
   - Nonce reuse attacks
 
 ### 7️ Key Exchange
-- [Diffie-Hellman & Key Exchange](07-Key-Exchange/diffie-hellman.md)
+- [Diffie-Hellman & Key Exchange](/diffie-hellman.md)
   - Diffie-Hellman protocol
   - Discrete logarithm problem
   - ECDH (Elliptic Curve DH)
