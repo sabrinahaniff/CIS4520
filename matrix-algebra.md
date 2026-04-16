@@ -8,7 +8,7 @@ Matrices are used to:
 - **Build ciphers** (e.g., Hill cipher)
 - **Formalize systems of equations**
 
-> Think of a matrix as a **table of numbers** used to store and combine equations.
+**Think of a matrix as a table of numbers used to store and combine equations.**
 
 **Key insight:** Matrices let us represent multiple equations at once, solve them, and check whether solutions exist.
 
@@ -28,7 +28,7 @@ An $m \times n$ matrix has:
 
 $$A = \begin{bmatrix} 1 & -3 & 5 \\ -6 & 1 & 7 \end{bmatrix}$$
 
-This is a $2 \\times 3$ matrix (2 rows, 3 columns).
+This is a $2 \times 3$ matrix (2 rows, 3 columns).
 
 ---
 
@@ -42,7 +42,7 @@ $$A = \begin{bmatrix} 1 & 5 & 7 \\ 2 & -3 & 4 \\ 0 & 6 & -2 \end{bmatrix}$$
 
 This is a $3 \times 3$ square matrix.
 
-> **Why they matter:** Square matrices are the only matrices that can have inverses, which is crucial for encryption/decryption.
+**Why they matter:** Square matrices are the only matrices that can have inverses, which is crucial for encryption/decryption.
 
 ---
 
@@ -81,9 +81,11 @@ A system of linear equations can be written as a single matrix equation.
 ### Example
 
 System:
+
 $$\begin{cases} 2x + 3y = 7 \\ x + 4y = 10 \end{cases}$$
 
 Matrix form:
+
 $$\begin{bmatrix} 2 & 3 \\ 1 & 4 \end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix} 7 \\ 10 \end{bmatrix}$$
 
 Written as: $A\vec{x} = \vec{b}$
@@ -150,12 +152,15 @@ $$A^{-1} = \frac{1}{ad - bc} \begin{bmatrix} d & -b \\ -c & a \end{bmatrix}$$
 Find $A^{-1}$ for $A = \begin{bmatrix} 2 & 3 \\ 1 & 4 \end{bmatrix}$
 
 **Step 1:** Compute determinant
+
 $$\det(A) = (2)(4) - (3)(1) = 5$$
 
 **Step 2:** Apply formula
+
 $$A^{-1} = \frac{1}{5} \begin{bmatrix} 4 & -3 \\ -1 & 2 \end{bmatrix} = \begin{bmatrix} 4/5 & -3/5 \\ -1/5 & 2/5 \end{bmatrix}$$
 
 **Verification:**
+
 $$AA^{-1} = \begin{bmatrix} 2 & 3 \\ 1 & 4 \end{bmatrix} \begin{bmatrix} 4/5 & -3/5 \\ -1/5 & 2/5 \end{bmatrix} = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} = I \quad \checkmark$$
 
 ---
@@ -163,15 +168,21 @@ $$AA^{-1} = \begin{bmatrix} 2 & 3 \\ 1 & 4 \end{bmatrix} \begin{bmatrix} 4/5 & -
 ## Solving $A\vec{x} = \vec{b}$ Using Inverse
 
 If $A$ is invertible, then:
+
 $$A\vec{x} = \vec{b}$$
+
 $$A^{-1}(A\vec{x}) = A^{-1}\vec{b}$$
+
 $$(A^{-1}A)\vec{x} = A^{-1}\vec{b}$$
+
 $$I\vec{x} = A^{-1}\vec{b}$$
+
 $$\vec{x} = A^{-1}\vec{b}$$
 
 ### Example
 
 Solve:
+
 $$\begin{bmatrix} 2 & 3 \\ 1 & 4 \end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix} 7 \\ 10 \end{bmatrix}$$
 
 We found $A^{-1} = \begin{bmatrix} 4/5 & -3/5 \\ -1/5 & 2/5 \end{bmatrix}$
@@ -216,4 +227,4 @@ The **Hill cipher** uses matrix multiplication to encrypt messages.
 
 ---
 
-[[README|← Back to Main]] | [Next Topic →]
+[← Back to Main](README.md)
