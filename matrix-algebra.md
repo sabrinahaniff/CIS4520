@@ -28,7 +28,7 @@ An $m \times n$ matrix has:
 
 $$A = \begin{bmatrix} 1 & -3 & 5 \\ -6 & 1 & 7 \end{bmatrix}$$
 
-This is a $2 \times 3$ matrix (2 rows, 3 columns).
+This is a $2 \\times 3$ matrix (2 rows, 3 columns).
 
 ---
 
